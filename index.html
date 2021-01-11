@@ -383,13 +383,25 @@
             <div class="contact__container bd-grid">
                 <form  method="post" target="hiddenFrame" onsubmit="run()" action="https://script.google.com/macros/s/AKfycbzFec7LqBvI6jpxzq8-8pBmQYihjU5ZzdN9G7-0/exec"   class="contact__form">
                     <div class="contact__inputs">
-                        <input type="text" name="name" placeholder="Name" class="contact__input">
-                        <input type="mail" required name="email" placeholder="Email" class="contact__input">
+                        <label>
+                            <input type="text" name="name" placeholder="Name" class="contact__input">
+                        </label>
+                        <label>                        
+                            <input type="mail" required name="email" placeholder="Email" class="contact__input">
+                        </label>
                     </div>
-                    <input type="text" name="project" placeholder="Project" class="contact__input">
-                    <textarea name="message" name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <label>                    
+                        <input type="text" name="project" placeholder="Project" class="contact__input">
+                    </label>
+
+                    <label>                    
+                        <textarea name="message" name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                    </label>
                 
-                    <input type="submit" value="Send Message" class="button contact__button">
+                    <label>                    
+                        <input type="submit" value="Send Message" class="button contact__button">
+                    </label>
                 </form>
 
                 <div>
