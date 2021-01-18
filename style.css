@@ -676,6 +676,12 @@
         width: initial;
     }
     
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
     .nav__menu{
         width: var(--nav-width);
     }
@@ -754,7 +760,11 @@
         margin: 0;
         padding-left: var(--nav-width);
     }
-
+img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
     .l-header{
         width: 0;
     }
